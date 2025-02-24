@@ -1,0 +1,44 @@
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.05); /* Slightly enlarges */
+    opacity: 0.8; /* Adds a subtle fade effect */
+  }
+}
+
+
+
+
+.bg{
+  background: url("images/b3.webp") no-repeat center center/cover;
+  animation: heartbeat 10s infinite ease-in-out;
+
+}
+.page_header{
+	height:300px;
+	
+}
+.text{
+        padding-top:100px;
+	 text-align: center;
+	 color:black;
+	 font-size: 50px; 
+	 font-family: Arial, sans-serif;
+}
+
+.links{
+	text-align: center;
+
+	font-size:25px;	
+	color:red;
+}
+a {
+    text-decoration: none;
+}
+.link-color{
+	color:red;
+	
+}
